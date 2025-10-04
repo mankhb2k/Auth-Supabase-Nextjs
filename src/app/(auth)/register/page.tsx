@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { signUp } from '@/utils/auth/actions'
 // KHÔNG hiển thị nút Google trên trang Đăng ký
 
-export default function SignUpPage({
+export default function RegisterPage({
   searchParams,
 }: {
   searchParams: { message?: string; error?: string }
